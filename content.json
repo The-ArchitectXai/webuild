@@ -1,0 +1,170 @@
+{
+ "categories": [
+  [
+   "all",
+   "All"
+  ],
+  [
+   "home",
+   "Homes"
+  ],
+  [
+   "com",
+   "Commercial"
+  ],
+  [
+   "inst",
+   "Institutional"
+  ]
+ ],
+ "projects": [
+  {
+   "name": "Swiss Chalet",
+   "cat": "home",
+   "label": "exterior",
+   "note": "Wooden chalet: exterior and interiors",
+   "photos": [
+    "swiss-chalet-1.jpg",
+    "swiss-chalet-2.jpg",
+    "swiss-chalet-3.jpg"
+   ]
+  },
+  {
+   "name": "Colonel Residence",
+   "cat": "home",
+   "label": "interiors",
+   "note": "Exterior, living room and bedrooms",
+   "photos": [
+    "colonel-residence-1.jpg",
+    "colonel-residence-2.jpg",
+    "colonel-residence-3.jpg"
+   ]
+  },
+  {
+   "name": "Prateek Group",
+   "cat": "home",
+   "label": "interiors",
+   "note": "1 BHK + study and 3 BHK interiors",
+   "photos": [
+    "prateek-group-1.jpg",
+    "prateek-group-2.jpg",
+    "prateek-group-3.jpg"
+   ]
+  },
+  {
+   "name": "Unity Group",
+   "cat": "home",
+   "label": "interiors",
+   "note": "2 BHK interiors",
+   "photos": [
+    "unity-group-1.jpg"
+   ]
+  },
+  {
+   "name": "The Masala Company",
+   "cat": "com",
+   "label": "interiors",
+   "note": "Restaurant. Client: R.R. Tyagi",
+   "photos": [
+    "the-masala-company-1.jpg",
+    "the-masala-company-2.jpg"
+   ]
+  },
+  {
+   "name": "Atul Jewellers",
+   "cat": "com",
+   "label": "interiors",
+   "note": "Jewellery store",
+   "photos": [
+    "atul-jewellers-1.jpg"
+   ]
+  },
+  {
+   "name": "Pause",
+   "cat": "com",
+   "label": "interiors",
+   "note": "Café",
+   "photos": [
+    "pause-1.jpg",
+    "pause-2.jpg"
+   ]
+  },
+  {
+   "name": "Twisting Scoops",
+   "cat": "com",
+   "label": "interiors",
+   "note": "10+ stores pan India",
+   "photos": []
+  },
+  {
+   "name": "Red Tape",
+   "cat": "com",
+   "label": "exterior",
+   "note": "Retail exterior and interiors, 20+ stores pan India",
+   "photos": [
+    "red-tape-1.jpg",
+    "red-tape-2.jpg"
+   ]
+  },
+  {
+   "name": "Madame Tussauds, Delhi",
+   "cat": "com",
+   "label": "others",
+   "note": "Attraction fit-out",
+   "photos": [
+    "madame-tussauds-delhi-1.jpg"
+   ]
+  },
+  {
+   "name": "Custom wall installations",
+   "cat": "com",
+   "label": "others",
+   "note": "Feature walls",
+   "photos": [
+    "custom-wall-installations-1.jpg",
+    "custom-wall-installations-2.jpg"
+   ]
+  },
+  {
+   "name": "Kidzee",
+   "cat": "inst",
+   "label": "interiors",
+   "note": "School interiors",
+   "photos": [
+    "kidzee-1.jpg"
+   ]
+  },
+  {
+   "name": "HPDA",
+   "cat": "inst",
+   "label": "interiors",
+   "note": "VC room",
+   "photos": [
+    "hpda-1.jpg"
+   ]
+  },
+  {
+   "name": "Zee Group",
+   "cat": "inst",
+   "label": "interiors",
+   "note": "Art gallery",
+   "photos": [
+    "zee-group-1.jpg"
+   ]
+  }
+ ],
+ "commercial_categories": [
+  "cat-retail.jpg",
+  "cat-office.jpg",
+  "cat-restaurant.jpg",
+  "cat-museum.jpg",
+  "cat-exhibition.jpg",
+  "cat-furniture.jpg"
+ ],
+ "services": [
+  "svc-architecture.jpg",
+  "svc-interior.jpg",
+  "svc-construction.jpg",
+  "svc-renovation.jpg"
+ ]
+}
