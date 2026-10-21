@@ -1,0 +1,255 @@
+═══════════════════════════════════════════════════════════════════
+  WEBUILD SERVICE PAGES - DEPLOYMENT CHECKLIST
+  Week 5 SEO Course Completion
+═══════════════════════════════════════════════════════════════════
+
+FILES READY ✓
+───────────────
+□ house-construction-wave-city.html
+□ interior-design-wave-city.html
+□ IMPLEMENTATION_GUIDE.md (detailed steps)
+
+═══════════════════════════════════════════════════════════════════
+STEP 1: PREPARE CONTENT
+═══════════════════════════════════════════════════════════════════
+
+□ Gather 2-3 before/after interior photos
+  - Size: 600×400px JPG
+  - File names: before-photo-1.jpg, after-photo-1.jpg
+  - Upload to: /images/ folder on your server
+
+□ Verify contact information in HTML files
+  - Phone: +91 98731 47140 ✓
+  - Email: studiowebuild@gmail.com ✓
+  - Address: Plot 806, Sector 2, Wave City ✓
+
+□ Update any custom URLs if needed
+  - Find/replace: /house-construction-wave-city/
+  - Find/replace: /interior-design-wave-city/
+  - Find/replace: /#portfolio (to your portfolio link)
+
+═══════════════════════════════════════════════════════════════════
+STEP 2: DEPLOY TO WEBSITE
+═══════════════════════════════════════════════════════════════════
+
+OPTION A: WORDPRESS
+───────────────────
+□ Create new page: "House Construction in Wave City"
+  - Slug: house-construction-wave-city
+  - Status: Draft (test first)
+  
+□ Switch to HTML editor (Code view)
+
+□ Copy content from house-construction-wave-city.html
+  - Copy from <!-- Header --> to <!-- Footer -->
+  - (Skip the <html>, <head>, <body> wrapper tags)
+
+□ Paste into WordPress page editor
+
+□ Review preview mode on desktop and mobile
+
+□ Repeat for interior-design-wave-city.html
+
+□ Add both pages to main navigation menu
+
+□ Publish both pages
+
+OPTION B: STATIC WEBSITE
+────────────────────────
+□ Upload via FTP/File Manager:
+  /public_html/house-construction-wave-city.html
+  /public_html/interior-design-wave-city.html
+
+□ Create/update .htaccess for clean URLs (optional)
+  - Adds rule to hide .html extension
+
+□ Update your main menu HTML with links:
+  <a href="/house-construction-wave-city/">House Construction</a>
+  <a href="/interior-design-wave-city/">Interior Design</a>
+
+OPTION C: WEBSITE BUILDER
+─────────────────────────
+□ Create new page in your builder
+  - Title: "House Construction in Wave City"
+  
+□ Copy content section by section (don't paste raw HTML)
+
+□ Match styling to your site theme
+
+□ Add contact form widget
+
+□ Update main navigation
+
+═══════════════════════════════════════════════════════════════════
+STEP 3: ADD IMAGES (Interior Design Page)
+═══════════════════════════════════════════════════════════════════
+
+□ Find this in interior-design-wave-city.html:
+  <div class="image-placeholder">📷</div>
+
+□ Replace with your image:
+  <img src="/images/before-photo-1.jpg" alt="Before interior design">
+  
+□ Repeat for "After" image
+
+□ Verify images display correctly in browser
+
+═══════════════════════════════════════════════════════════════════
+STEP 4: TEST EVERYTHING
+═══════════════════════════════════════════════════════════════════
+
+DESKTOP TESTING
+───────────────
+□ Chrome
+□ Firefox  
+□ Safari
+
+MOBILE TESTING
+──────────────
+□ iPhone (responsive view in browser)
+□ Android (responsive view in browser)
+
+FUNCTIONALITY
+─────────────
+□ Click all internal links (should stay on site)
+□ Fill out contact form
+□ Verify form opens WhatsApp with your number
+□ Verify email link works (studiowebuild@gmail.com)
+
+PERFORMANCE
+────────────
+□ Run Google PageSpeed Insights
+  - Goal: >80 score on both desktop and mobile
+  
+□ Check page load time
+  - Goal: <3 seconds on 4G
+
+SEO CHECK
+─────────
+□ Validate schema markup
+  - Visit: https://schema.org/validator
+  - Paste HTML from page
+  - Look for green ✓ (no errors)
+
+═══════════════════════════════════════════════════════════════════
+STEP 5: GOOGLE SEARCH CONSOLE
+═══════════════════════════════════════════════════════════════════
+
+□ Log in to Google Search Console
+  - https://search.google.com/search-console
+
+□ Verify your domain is added
+  - If not: Add property and verify ownership
+
+□ Submit pages for indexing
+  URL Inspector:
+  □ https://www.webuild.org.in/house-construction-wave-city/
+    → Click "Request Indexing"
+  □ https://www.webuild.org.in/interior-design-wave-city/
+    → Click "Request Indexing"
+
+□ Check status after 24-48 hours
+  → Coverage report should show both pages "Valid"
+
+═══════════════════════════════════════════════════════════════════
+STEP 6: NAVIGATION UPDATES
+═══════════════════════════════════════════════════════════════════
+
+□ Update main menu/header
+  - Add: House Construction in Wave City
+  - Add: Interior Design in Wave City
+
+□ Update homepage
+  - Link to both new pages
+  - Add brief mention in "Services" section
+
+□ Update footer (if you have one)
+  - Link both pages in footer menu
+
+INTERNAL LINKING
+────────────────
+□ In house construction page:
+  - Link "interior finishing" → interior design page
+
+□ In interior design page:
+  - Link "new home design" → house construction page
+
+═══════════════════════════════════════════════════════════════════
+STEP 7: FORM INTEGRATION (Optional)
+═══════════════════════════════════════════════════════════════════
+
+Current Setup: WhatsApp Integration ✓
+- Forms automatically open WhatsApp
+- No backend required
+- Works immediately
+
+Alternative Options:
+□ Email via Formspree.io
+  1. Sign up at formspree.io
+  2. Create form
+  3. Update form action in HTML
+
+□ Email via Netlify Forms
+  (If hosting on Netlify)
+
+═══════════════════════════════════════════════════════════════════
+STEP 8: MONITOR & OPTIMIZE
+═══════════════════════════════════════════════════════════════════
+
+WEEK 1-2: INDEXING
+───────────────────
+□ Check Google Search Console daily
+□ Verify both pages show as "Indexed"
+□ Note: Google doesn't always show "Completed" message
+
+WEEK 2-4: RANKINGS
+───────────────────
+□ Monitor keyword positions
+  Keywords to track:
+  - "house construction Wave City"
+  - "home builder Ghaziabad"
+  - "interior design Wave City"
+  - "interior designer Ghaziabad"
+
+□ Check impressions in Search Console
+  - Goal: 50+ impressions by week 4
+
+WEEK 4-8: OPTIMIZATION
+───────────────────────
+□ Check click-through rate (CTR)
+  - If <2%: Improve meta description
+  
+□ Check average position
+  - If page 3-5: Consider backlink building
+  
+□ Track form submissions
+  - Goal: 1-2 leads per week
+
+═══════════════════════════════════════════════════════════════════
+FINAL CHECKLIST
+═══════════════════════════════════════════════════════════════════
+
+□ Both HTML files deployed
+□ Images added (interior design page)
+□ Contact information verified
+□ Links tested (all working)
+□ Mobile responsive (tested on phone)
+□ Schema markup validated
+□ Google Search Console updated
+□ Pages indexed (wait 24-48 hours)
+□ Menu navigation updated
+□ Homepage linked both pages
+□ All forms functional
+
+═══════════════════════════════════════════════════════════════════
+🎉 WEEK 5 COMPLETE!
+
+You've created two SEO-optimized service pages targeting:
+- House Construction in Wave City
+- Interior Design in Wave City
+
+These pages should start ranking within 4-8 weeks for local searches.
+
+Next: Week 6 - Off-page SEO (backlinks, citations, mentions)
+
+═══════════════════════════════════════════════════════════════════
